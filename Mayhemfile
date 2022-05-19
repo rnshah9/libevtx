@@ -1,0 +1,8 @@
+project: rnshah9/libevtx
+target: libevtx
+image: ghcr.io/rnshah9/playground:libevtx
+tests:
+  - file://tests/data
+
+cmds:
+  - cmd: /usr/local/bin/evtxinfo @@
