@@ -1,6 +1,5 @@
 project: rnshah9/libevtx
-target: libevtx
-image: ghcr.io/rnshah9/playground:libevtx
+target: evtxinfo
 tests:
   - file://tests/data
 
