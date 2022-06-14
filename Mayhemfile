@@ -1,6 +1,6 @@
-project: rnshah9/libevtx
+project: libevtx
 target: evtxinfo
-tests:
+testsuite:
   - file://tests/data
 
 cmds:
